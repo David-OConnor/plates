@@ -1,0 +1,8 @@
+build/
+finding ident codes/
+Seymour Plates(legacy/
+__pycache__/
+*.pyc
+*.ico
+*.db
+*~
