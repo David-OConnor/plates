@@ -1,6 +1,5 @@
 build/
-finding ident codes/
-Seymour Plates (legacy)/
+misc/
 __pycache__/
 *.pyc
 *.ico

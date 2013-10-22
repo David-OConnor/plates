@@ -1,9 +1,0 @@
-Icon baseline: Sasa Stefanovic, 2005
-
-Requests Copyright 2013, Kenneth Reitz
-
-PyPDF2 Copyright 2006-2008, Mathieu Fenniak
-
-PyQt Copyright © 2013 Riverbank Computing
-
-Qt Copyright Digia
