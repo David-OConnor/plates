@@ -172,7 +172,7 @@ class Plate():
         url = self.faa_url()
         try:
             status = get(url, timeout=15).status_code
-        except ConnectionError as e:
+        except ConnectionError:
             main.ui.statusbar.showMessage("Internet connection error")
             return False
         if status == 200:
@@ -225,7 +225,8 @@ class Plate():
         try:   
             ident = idents[self.ident]
         except KeyError as e:
-            # Returns a deliberately invalid URL to cause check_url to return False without exceptions
+            # Returns a deliberately invalid URL to cause check_url to return
+            # False without exceptions
             return 'http://aeronav.faa.gov/d-pp/keyerror.PDF'
         _high = high[self.high]
         procedure = types[self.procedure]
